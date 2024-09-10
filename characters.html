@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icarus - Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="story.html">The Story</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="characters.html">Characters</a>
+    </div>
+
+    <header>
+        <h1>Characters</h1>
+    </header>
+
+    <main>
+        <section class="character-section">
+            <h2>Main Characters</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Character</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Icarus</td>
+                        <td>The son of Daedalus, whose hubris led to his tragic fall.</td>
+                    </tr>
+                    <tr>
+                        <td>Daedalus</td>
+                        <td>A skilled craftsman and the father of Icarus, creator of the labyrinth and the wings.</td>
+                    </tr>
+                    <tr>
+                        <td>King Minos</td>
+                        <td>The ruler of Crete who imprisoned Daedalus and Icarus in the labyrinth.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="story-selection">
+            <h2>Explore the Story</h2>
+            <label for="story-part">Select a part of the story:</label>
+            <select id="story-part" onchange="location = this.value;">
+                <option value="">Select</option>
+                <option value="story.html#labyrinth">The Labyrinth</option>
+                <option value="story.html#warning">The Warning</option>
+                <option value="story.html#flight">The Flight</option>
+                <option value="story.html#fall">The Fall</option>
+            </select>
+        </section>
+    </main>
+
+</body>
+</html>
