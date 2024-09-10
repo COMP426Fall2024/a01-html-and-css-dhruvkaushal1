@@ -1,0 +1,228 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+} */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+select {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Class-based selector */
+
+img {
+    width: 150px; /* Adjust this size to your preference */
+    height: 150px; /* Adjust this size to your preference */
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+}
+
+/* ID-based selector */
+#unique-element {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hierarchical selector */
+header nav ul li a {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #f90;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #700c0c;
+    /* overflow: hidden; */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #2c167b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(22, 158, 26);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+/* 1. General styles for body */
+body {
+    font-family: Arial, sans-serif; /* Using one font */
+    background-color: #f0f8ff; /* Light blue background color using hex */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Styling for the top navigation */
+.topnav {
+    background-color: #333; /* Dark background for navigation */
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd; /* Change background on hover */
+    color: black; /* Change text color on hover */
+}
+
+/* 3. Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #87cefa; /* Light blue header background */
+    border-bottom: 3px solid #4682b4; /* Border for header */
+}
+
+/* 4. Main content styles */
+main {
+    font-family: 'Georgia', serif; /* Using a different font */
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+/* 5. Character section styles (class-based selector) */
+.character-section {
+    background-color: #fafad2; /* Light goldenrod yellow background */
+    padding: 15px;
+    border: 1px solid #d3d3d3; /* Light grey border */
+}
+
+/* 6. Table styling (selector based on hierarchy) */
+.character-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.character-section th, .character-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.character-section th {
+    background-color: #f4a460; /* Sandy brown header */
+    color: white;
+}
+
+/* 7. Specific story section (id-based selector) */
+#labyrinth {
+    background-color: #fffacd; /* Light golden background */
+    padding: 10px;
+    border: 1px solid #f4a460; /* Sandy brown border */
+}
+
+/* 8. Hover effect for images */
+img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+/* 9. Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-top: 3px solid #87cefa; /* Border for footer */
+}
+
+/* 10. Width control for images */
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 500px; /* Set a maximum width */
+}
+
+/* Extra - Class selector for dropdown */
+.story-selection select {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
